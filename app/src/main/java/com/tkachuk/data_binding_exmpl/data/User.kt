@@ -1,3 +1,7 @@
 package com.tkachuk.data_binding_exmpl.data
 
-data class User(val name: String, val age: Int)
+import android.databinding.ObservableInt
+
+data class User(var name: String, var age: Int, var likes: ObservableInt) {
+    fun isAdult() = age > 18
+}
