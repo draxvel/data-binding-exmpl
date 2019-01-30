@@ -14,6 +14,7 @@
 
         <TextView
             android:id="@+id/name_tv"
+            android:text="@{user.name}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -24,6 +25,7 @@
 
         <TextView
             android:id="@+id/age_tv"
+            android:text="@{String.valueOf(user.age)}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
