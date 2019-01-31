@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">data-binding-exmpl</string>
+    <string name="likes">likes</string>
 </resources>
