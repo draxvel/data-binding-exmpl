@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         binding.user = viewmodel.user
         binding.user!!.imageUrl = "http://tiny.cc/image_porfile"
 
+        UserAdapter()
     }
 
 }
