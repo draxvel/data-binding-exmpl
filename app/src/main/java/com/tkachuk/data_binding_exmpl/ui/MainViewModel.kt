@@ -14,6 +14,8 @@ class MainViewModel : ViewModel() {
     fun onLike() {
         user.likes.set(user.likes.get() + 1)
     }
+
+    val users: List<User> = listOf()
 }
 
 

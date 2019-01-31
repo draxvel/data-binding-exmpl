@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import com.squareup.picasso.Picasso
 import com.tkachuk.data_binding_exmpl.R
+import com.tkachuk.data_binding_exmpl.data.User
 import com.tkachuk.data_binding_exmpl.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
 
